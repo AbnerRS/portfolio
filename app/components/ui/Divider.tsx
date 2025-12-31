@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function Divider() {
   return (
-    <div className="relative w-full py-20 flex items-center justify-center overflow-hidden">
+    <div className="relative w-full py-6 -my-4 flex items-center justify-center overflow-hidden z-0">
       {/* Glowing Line with Flicker */}
       <motion.div 
         initial={{ width: "0%", opacity: 0 }}
