@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit), SYSTEM-UI, sans-serif;
+
+  --color-background: #030014;
+  --color-foreground: #e2e8f0;
+
+  --color-primary: #7c3aed;
+  /* Violet 600 */
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #db2777;
+  /* Pink 600 */
+  --color-secondary-foreground: #ffffff;
+
+  --color-accent: #22d3ee;
+  /* Cyan 400 */
+  --color-accent-foreground: #0f172a;
+
+  --color-card: #0f0b1f;
+  /* Slightly lighter than bg */
+  --color-card-border: #2a2442;
+
+  --animate-blob: blob 7s infinite;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent;
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}

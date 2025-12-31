@@ -1,0 +1,57 @@
+{
+  "personalInfo": {
+    "name": "Abner Rodrigues",
+    "headline": "Senior Software Engineer | Full Stack | React | Typescript | Micro frontends | Java | Springboot | Git",
+    "about": "I'm a Senior Front-end Developer focused on building scalable, mission-critical interfaces using React. I really care about performance, system stability, and delivering high-quality code. Currently working at Liberty Health, delivering the billing software for São Paulo's public health network. It's a massive project used in over 70 healthcare facilities, where I deal with complex micro-frontends and heavy business logic to help keep the public health system running. I also bring a solid Full Stack background (Java/Spring), which helps me bridge the gap between UI and Backend to build more resilient products.",
+    "location": "Brazil"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Liberty Health Tech",
+      "period": "Nov 2023 - Present",
+      "description": "I specialize in building large-scale, resilient Front-end applications. Currently, I am driving the front-end development for a high-traffic healthcare platform active in the public sector. I architect solutions using React and Micro-frontends, focusing on scalability and code reusability. The system handles intricate billing rules, requiring me to implement complex validation and logic on the client side while maintaining high performance."
+    },
+    {
+      "title": "Software Engineer II",
+      "company": "MV",
+      "period": "Nov 2023 - Nov 2023",
+      "description": "Worked on software evolution and maintenance."
+    },
+    {
+      "title": "Software Engineer I",
+      "company": "MV",
+      "period": "Oct 2021 - Nov 2023",
+      "description": "Full stack development with focus on Java/Spring and React."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Estácio",
+      "degree": "Curso Superior de Tecnologia (CST), Análise e desenvolvimento de sistemas",
+      "period": "Aug 2019 - Dec 2021"
+    },
+    {
+      "institution": "SENAI CETIQT",
+      "degree": "Redes de computadores, Tecnologia da Informação",
+      "period": "2015 - 2017"
+    }
+  ],
+  "skills": [
+    "English",
+    "TypeScript",
+    "Micro-frontends",
+    "Microservices Architecture",
+    "Technical Leadership",
+    "Software Engineering Best Practices",
+    "Front-end Architecture with React",
+    "Performance Optimization in React",
+    "React",
+    "Java",
+    "PL/SQL",
+    "Spring Boot",
+    "Angular",
+    "PostgreSQL",
+    "Git"
+  ]
+}
